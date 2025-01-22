@@ -25,7 +25,7 @@ import com.example.vote.service.VoteRecordsService;
  * */
 @RestController
 @RequestMapping("/voteRecords")
-@CrossOrigin(origins = "http://localhost:5173", allowCredentials = "true")
+@CrossOrigin(origins = "http://localhost:8081", allowCredentials = "true")
 public class VoteRecordsController {
 
 	@Autowired

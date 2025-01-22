@@ -29,7 +29,7 @@ import com.example.vote.service.VoteItemsService;
  * */
 @RestController
 @RequestMapping("/voteItems")
-@CrossOrigin(origins = "http://localhost:5173", allowCredentials = "true")
+@CrossOrigin(origins = "http://localhost:8081", allowCredentials = "true")
 public class VoteItemsController {
 
 	@Autowired
